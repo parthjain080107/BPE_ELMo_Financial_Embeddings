@@ -13,14 +13,14 @@ The repository includes a comparative evaluation framework that benchmarks this 
 * **Interactive Verification Suite:** A command-line program to evaluate custom user-defined sentences and compute mathematical contextual cosine similarity scores side-by-side with FinBERT.
 
 
-## 📂 Repository Structure
+## Repository Structure
 
 * `train_elmo.py`: Handles raw financial text compilation, Byte-Pair Encoding (BPE) vocabulary construction, PyTorch data batching, and the unsupervised language modeling training loop.
 * `verify_elmo.py`: A modular pipeline that loads the trained weights, executes inference on real-time user-provided inputs, and runs the comparative analysis against industry baselines.
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 Ensure you have Python installed along with the required deep learning dependencies:
