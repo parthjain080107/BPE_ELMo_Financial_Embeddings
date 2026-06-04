@@ -44,7 +44,6 @@ Execute the training script to compile the BPE vocabulary and train the bidirect
 python verify_elmo.py
 ```
 
-## Verification Strategy
 ### Verification Workflow
 
 When running `verify_elmo.py`, you can test your model's context-tracking capability by inputting any target word along with two diverse sentences. 
