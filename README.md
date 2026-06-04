@@ -8,7 +8,7 @@ The repository includes a comparative evaluation framework that benchmarks this 
 ## Key Features
 
 * **Custom BPE Tokenizer:** Built using the Hugging Face `tokenizers` library to break text into highly frequent subwords, optimizing vocabulary size for smaller domain-specific datasets.
-* **Deep BiLSTM Architecture:** A multi-layer bidirectional LSTM network that processes left-to-right and right-to-left contexts simultaneously.
+* **Deep BiLSTM Architecture:** A 2-layer bidirectional LSTM network that processes left-to-right and right-to-left contexts simultaneously.
 * **Smart Checkpoint Loading:** Automatic saving and loading mechanisms (`financial_elmo.pt`) to prevent unnecessary CPU retraining cycles.
 * **Interactive Verification Suite:** A command-line program to evaluate custom user-defined sentences and compute mathematical contextual cosine similarity scores side-by-side with FinBERT.
 
