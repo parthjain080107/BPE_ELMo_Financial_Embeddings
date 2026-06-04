@@ -26,4 +26,10 @@ The repository includes a comparative evaluation framework that benchmarks this 
 Ensure you have Python installed along with the required deep learning dependencies:
 
 ```bash
-pip install torch pandas tokenizers transformers
+pip install torch
+
+pip install pandas
+
+pip install tokenizers
+
+pip install transformers
